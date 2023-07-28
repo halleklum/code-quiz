@@ -41,5 +41,8 @@ halleklum
 ## E-mail
 halleklum@gmail.com
 
-## Link
+## Link / image
+![Screen Shot 2023-07-27 at 9 09 21 PM](https://github.com/halleklum/code-quiz/assets/128300265/13702dbc-abfb-414c-a063-a83fe667adab)
+
+
 
