@@ -91,7 +91,8 @@ function countdown() {
 }
 
 function refreshQuestion() {
-    questionEl.innerText = quizQuestions[questionIndex].question
+    questionEl.innerText = quizQuestions[questionIndex].question;
+    optionsEl.innerText = quizQuestions[0].answers;
 
     // var currentQ = quizQuestions[questionIndex];
 
@@ -105,9 +106,11 @@ function refreshQuestion() {
 }
 
 
+
 function updateQuestion() {
-    var currentQ = questions[quizQuestions];
-    questionEl.textContent = currentQ.question;
+    // var currentQ = questions[quizQuestions];
+    console.log(quizQuestions)
+    // questionEl.textContent = currentQ.question;
     optionsEl.innerHTML = "";
 
     currentQ.options.forEach(function (options) {
